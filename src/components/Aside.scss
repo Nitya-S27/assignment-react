@@ -22,6 +22,9 @@
         line-height: 29px;
         color: #ffffff;
       }
+      &:hover {
+        background-color: #212329;
+      }
     }
     .staticInfo {
       border: 1.25176px solid #3772ff;
@@ -47,6 +50,9 @@
         letter-spacing: 0.315952px;
         text-transform: uppercase;
         color: #ffffff;
+      }
+      &:hover {
+        background-color: #212329;
       }
     }
     .downArrow {
@@ -121,6 +127,9 @@
         text-align: center;
         color: #ffffff;
       }
+      &:hover {
+        background: #004cff;
+      }
     }
     .cancel {
       border: 1px solid #242731;
@@ -142,6 +151,9 @@
       }
       .cancelIcon {
         font-size: 20px;
+      }
+      &:hover {
+        background: #282c35;
       }
     }
   }

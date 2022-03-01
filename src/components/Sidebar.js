@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsGrid, BsFileBarGraph, BsBarChart, BsGlobe2 } from "react-icons/bs";
 import { AiOutlineDollar } from "react-icons/ai";
 import { AiOutlinePieChart, AiOutlineControl } from "react-icons/ai";
@@ -67,6 +67,20 @@ const sidebarContent = [
 ];
 
 const Sidebar = (props) => {
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  if (isCollapsed === true) {
+    return (
+      <div className="openSidebar">
+        <img
+          onClick={() => setIsCollapsed(false)}
+          src="assets/closing_icon.png"
+          alt="closing_icon"
+        />
+      </div>
+    );
+  }
+
   return (
     <div className={`${props.className} sidebarWrapper`}>
       <div className="sidebarHeading">
@@ -75,6 +89,7 @@ const Sidebar = (props) => {
           <h1 className="headingText">Name</h1>
         </div>
         <img
+          onClick={() => setIsCollapsed(true)}
           className="collapse"
           src="assets/closing_icon.png"
           alt="closing_icon"

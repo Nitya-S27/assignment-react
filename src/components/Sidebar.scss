@@ -105,6 +105,9 @@
         span {
           color: #ffffff;
         }
+        &:hover {
+          background: #292c33;
+        }
       }
       .rightButton {
         flex: 50%;
@@ -116,6 +119,9 @@
         cursor: pointer;
         span {
           color: #3772ff;
+        }
+        &:hover {
+          background: #6fd3fd;
         }
       }
     }
@@ -150,5 +156,12 @@
         }
       }
     }
+  }
+}
+
+.openSidebar {
+  img {
+    transform: rotate(180deg);
+    margin-top: 1.5rem;
   }
 }
