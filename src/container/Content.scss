@@ -1,0 +1,254 @@
+.contentWrapper {
+  padding: 1.5rem 2.5rem;
+  .topNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5%;
+    .title {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 18px;
+      color: #ffffff;
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      margin: 7px 0px;
+      padding-bottom: 1.2%;
+      border-bottom: 2.5px solid #3772ff;
+    }
+    .tierButton {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      background: #191b20;
+      mix-blend-mode: normal;
+      border-radius: 12.2549px;
+      padding: 1.1% 1.5%;
+      cursor: pointer;
+      .walletIcon {
+        color: #3772ff;
+        font-size: 1.5rem;
+      }
+      .tierAmount {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 35px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+      .tierInfo {
+        width: 3rem;
+        background: #a3e3ff;
+        padding: 5px;
+        border-radius: 5px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.240494px;
+        color: #3772ff;
+      }
+    }
+  }
+
+  .promoPanel {
+    background: #abe8ff;
+    border-radius: 10px;
+    padding: 0 5.5% 1.3%;
+    display: flex;
+    position: relative;
+    .description {
+      flex: 90%;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 26px;
+      color: #2b2557;
+      .cancelIcon {
+        color: white;
+        border-radius: 100%;
+        padding: 0;
+        font-size: 1.5rem;
+        position: absolute;
+        right: -11px;
+        top: -11px;
+      }
+      p {
+        margin: 2% 0 1.5%;
+      }
+      button {
+        outline: none;
+        border: none;
+        padding: 1% 5%;
+        background: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    }
+    img {
+      flex: 10%;
+      position: absolute;
+      right: 20px;
+      bottom: -10px;
+    }
+  }
+
+  .rewards {
+    background: #191b20;
+    border-radius: 24px;
+    padding: 2% 5%;
+    margin: 2.5% auto 2.5%;
+    .rewardHeading {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+      margin-bottom: 1%;
+    }
+    .rewardDes {
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        margin: 0;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 48px;
+        letter-spacing: -1px;
+        color: #ffffff;
+      }
+      .button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #3772ff;
+        border-radius: 10px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        padding: 0 2.5%;
+        gap: 7px;
+        cursor: pointer;
+      }
+    }
+    .rewardCurrency {
+      display: flex;
+      p {
+        background: #353945;
+        border-radius: 11px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 17px;
+        color: #ffffff;
+        padding: 1% 2%;
+        margin-right: 1.5%;
+      }
+    }
+  }
+
+  .referral {
+    display: flex;
+    justify-content: space-between;
+    .referralDetails {
+      flex: 50%;
+      background: #191b20;
+      opacity: 0.8;
+      border-radius: 16px;
+      padding: 5%;
+      margin-right: 5%;
+      .moneyBag {
+        display: flex;
+        align-items: center;
+        span {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+          margin-left: 4%;
+        }
+      }
+      .des {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        color: #808191;
+      }
+      .link {
+        background: #242731;
+        mix-blend-mode: normal;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+        p,
+        .copyIcon {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 24px;
+          color: #ffffff;
+          cursor: pointer;
+        }
+        .copyIcon {
+          font-size: 20px;
+        }
+      }
+      &:last-of-type {
+        margin-right: 0%;
+      }
+    }
+  }
+
+  .contentNavigation {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 4%;
+    gap: 20px;
+    .navigationButton {
+      button {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #ffffff;
+        background: transparent;
+        outline: none;
+        border: none;
+        padding: 0 0 8%;
+        border-bottom: 2.5px solid #000000;
+        cursor: pointer;
+      }
+      .action {
+        border-bottom: 2.5px solid #3772ff;
+      }
+    }
+  }
+}

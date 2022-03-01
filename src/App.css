@@ -1,5 +1,23 @@
 .App {
+  background-color: #000000;
+}
+
+.mainContent {
+  display: flex;
+}
+.sidebar {
+  flex: 20%;
+}
+.content {
+  flex: 55%;
+  /* background-color: green; */
+}
+.aside {
+  flex: 25%;
+}
+/* .App {
   text-align: center;
+ 
 }
 
 .App-logo {
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

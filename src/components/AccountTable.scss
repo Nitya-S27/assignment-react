@@ -1,0 +1,117 @@
+.accountTableWrapper {
+  padding: 1rem 0;
+  table {
+    border: none;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.6em;
+
+    thead {
+      background: #191b20;
+      mix-blend-mode: normal;
+      tr {
+        th {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 24px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          color: #808191;
+          padding: 1.3% 0;
+          &:first-child {
+            border-radius: 8px 0 0 8px;
+          }
+          &:last-child {
+            border-radius: 0 8px 8px 0;
+          }
+        }
+      }
+    }
+    tbody {
+      background: rgba(36, 39, 49, 0.4);
+
+      tr {
+        td {
+          padding-top: 17px;
+          padding-bottom: 17px;
+          .stats {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 24px;
+            color: #ffffff;
+          }
+          .status {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 16px;
+            color: #808191;
+          }
+          &:first-child {
+            border-radius: 5px 0 0 5px;
+          }
+          &:last-child {
+            border-radius: 0 5px 5px 0;
+          }
+        }
+        .asset {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          .btc {
+            .avax {
+              display: flex;
+              align-items: center;
+              .avaxContent {
+                background: #353945;
+                border-radius: 7.15472px;
+                display: flex;
+                padding: 10%;
+                gap: 5px;
+                span {
+                  font-family: Poppins;
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 7.80515px;
+                  line-height: 11px;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+        }
+        .amount {
+          width: 100%;
+          margin: auto;
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        }
+        .userAccount {
+          text-align: center;
+        }
+        .referralEarning {
+          div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+              margin-left: 5%;
+              width: 8%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

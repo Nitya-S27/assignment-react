@@ -1,0 +1,148 @@
+.asideWrapper {
+  padding: 1.5rem 2.5rem;
+  .asideButtons {
+    display: flex;
+    justify-content: space-between;
+    .avalanche {
+      background: #353945;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex: 50%;
+      padding: 2%;
+      margin-right: 5%;
+      cursor: pointer;
+      span,
+      .downArrow {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15.0211px;
+        line-height: 29px;
+        color: #ffffff;
+      }
+    }
+    .staticInfo {
+      border: 1.25176px solid #3772ff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex: 50%;
+      padding: 2%;
+      cursor: pointer;
+      .wallet {
+        color: #3772ff;
+        font-size: 1.5rem;
+      }
+      span,
+      .downArrow {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.315952px;
+        text-transform: uppercase;
+        color: #ffffff;
+      }
+    }
+    .downArrow {
+      font-size: 17px;
+    }
+  }
+
+  .form {
+    margin-top: 10%;
+    .formHeading {
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      .leftArrow {
+        font-size: 20px;
+      }
+      span,
+      .leftArrow {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 48px;
+      letter-spacing: -1px;
+      color: #ffffff;
+    }
+    input {
+      background: #242731;
+      mix-blend-mode: normal;
+      border: none;
+      border-radius: 12px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+      text-transform: uppercase;
+      color: #808191;
+      outline: none;
+      width: 20.2rem;
+      padding: 4% 0 4% 5%;
+      margin-bottom: 10%;
+    }
+  }
+
+  .submissionButton {
+    display: flex;
+    justify-content: space-evenly;
+    .customLink {
+      background: #3772ff;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      padding: 2.5% 5%;
+      gap: 10px;
+      cursor: pointer;
+      span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+      }
+    }
+    .cancel {
+      border: 1px solid #242731;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      padding: 2.5% 5%;
+      gap: 10px;
+      cursor: pointer;
+      span,
+      .cancelIcon {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .cancelIcon {
+        font-size: 20px;
+      }
+    }
+  }
+}

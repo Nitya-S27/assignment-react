@@ -1,0 +1,154 @@
+.sidebarWrapper {
+  padding: 1.5rem 0;
+  position: relative;
+  .sidebarHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .headingIcon {
+        background-color: #3772ff;
+        border-radius: 100%;
+        padding: 0.25rem;
+        margin-right: 0.5rem;
+      }
+      .headingText {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 23.5618px;
+        line-height: 31px;
+        letter-spacing: -0.02em;
+        color: #ffffff;
+        margin: 0;
+      }
+    }
+    .collapse {
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .sidebarNavigation {
+    padding: 0 1.5rem;
+    ul {
+      list-style: none;
+      padding: 0.7rem 0 0.7rem 1rem;
+      margin: 0;
+      .sidebarNavigationContent {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        span {
+          font-size: 20px;
+        }
+        a {
+          text-decoration: none;
+          font-size: 14px;
+        }
+
+        a,
+        span {
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 24px;
+          color: #808191;
+        }
+      }
+      &:hover {
+        background: #353945;
+        mix-blend-mode: normal;
+        border-radius: 12px;
+        padding-left: 2rem;
+        .sidebarNavigationContent {
+          gap: 1rem;
+          span,
+          a {
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebarFooter {
+    margin: 65% 8% 0;
+    .sidebarFooterButton {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      span {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 29px;
+      }
+      .leftButton {
+        flex: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: #353945;
+        border-radius: 10px;
+        padding: 2% 0;
+        cursor: pointer;
+        img {
+          width: 20%;
+        }
+        span {
+          color: #ffffff;
+        }
+      }
+      .rightButton {
+        flex: 50%;
+        background: #a3e3ff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        text-align: center;
+        padding: 2% 0;
+        cursor: pointer;
+        span {
+          color: #3772ff;
+        }
+      }
+    }
+    .themeChanger {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 7% auto auto;
+      .globeIcon {
+        color: #808191;
+        font-size: 1.3rem;
+      }
+      .theme {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        background: #353945;
+        mix-blend-mode: normal;
+        border-radius: 15px;
+        padding: 1% 2.7%;
+        .lightTheme {
+          color: #808191;
+          font-size: 1.3rem;
+          cursor: pointer;
+        }
+        .darkTheme {
+          color: #3772ff;
+          font-size: 1.5rem;
+          box-shadow: 0px 3.23284px 6.46569px rgba(0, 0, 0, 0.1);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
